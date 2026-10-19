@@ -31,7 +31,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="min-h-full   flex justify-between">
         <Nav/>
-        <div className=" w-full bg-neutral-100 pl-50">
+        <div className=" w-full bg-neutral-100 pl-0 md:pl-50">
 
         {children}
         </div>
